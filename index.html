@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Nortec Química</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Nortec">
+        <h1><span class="azul">Dashboard</span> - Nortec Química</h1>
+    </header>
+
+    <section class="filtros">
+        <input type="date" id="filtro-data">
+        <input type="text" id="filtro-tag" placeholder="Filtrar por TAG">
+        <button id="filtrar">Filtrar</button>
+    </section>
+
+    <section id="dados-container"></section>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
