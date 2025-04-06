@@ -57,4 +57,3 @@ document.getElementById("toggleTheme").onclick = () => {
 
 setInterval(fetchData, 60000); // atualiza a cada minuto
 fetchData();
-fs.writeFileSync('data.json', JSON.stringify(linhas, null, 2));
