@@ -1,7 +1,7 @@
 async function carregarDados() {
     try {
-        const resposta = await fetch('dados.json');
-        const dados = await resposta.json();
+       // Puxa direto do arquivo JS que já define os dados
+import { dados } from './data.js'; // se estiver usando módulo
 
         const container = document.getElementById('dados-container');
         container.innerHTML = ''; // Limpa o conteúdo anterior
