@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Nortec Química</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <img src="nortec-logo.png" alt="Nortec Química" class="logo">
+        <h1>Dashboard Nortec Química</h1>
+        <button id="toggleTheme">🌙 Alternar Tema</button>
+    </header>
+
+    <section class="filtros">
+        <input type="date" id="dateFilter" />
+        <input type="text" id="tagFilter" placeholder="Filtrar por TAG" />
+        <button onclick="applyFilters()">Filtrar</button>
+    </section>
+
+    <main id="tablesContainer"></main>
+
+    <footer>
+        <p>&copy; 2025 Nortec Química</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
